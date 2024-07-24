@@ -1,0 +1,49 @@
+  .pokemonImg{
+    height: 10rem;
+    width: 10rem;
+    background-color:#f0f0f0;
+    border-radius: 5%;
+    
+  }
+
+  .TextContainer{
+    margin: 10px
+  }
+
+  .pokeContainer{
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+
+  .pokemonId{
+    margin-top: .15rem;
+    margin-bottom: .15rem;
+    font-size: smaller;
+    font-weight: bold;
+    color: gray
+  }
+
+  .pokemonName{
+    align-content: start;
+    margin-top: .15rem;
+    margin-bottom: .35rem;
+  }
+
+
+
+  .pokemonTypesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .8rem; /* Espacio entre los elementos */
+  }
+  
+  .pokemonTypes {
+    border-radius: 10px;
+    color: #000000; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    font-weight: bolder; /* Peso de la fuente en negrita */
+    font-size: 10px; /* Tamaño de la fuente más pequeño */
+    width: 4.3rem; /* Ancho del componente */
+    height: 1.8rem; /* Alto del componente */
+  }
