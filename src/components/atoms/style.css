@@ -1,9 +1,8 @@
   .pokemonImg{
-    height: 10rem;
-    width: 10rem;
+    height: 16rem;
+    width: 16rem;
     background-color:#f0f0f0;
     border-radius: 5%;
-    
   }
 
   .TextContainer{
@@ -29,13 +28,11 @@
     margin-bottom: .35rem;
   }
 
-
-
   .pokemonTypesContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: .8rem; /* Espacio entre los elementos */
+    gap: 1.6rem; /* Espacio entre los elementos */
   }
   
   .pokemonTypes {
@@ -43,7 +40,34 @@
     color: #000000; /* Color del texto */
     text-align: center; /* Centra el texto */
     font-weight: bolder; /* Peso de la fuente en negrita */
-    font-size: 10px; /* Tamaño de la fuente más pequeño */
-    width: 4.3rem; /* Ancho del componente */
-    height: 1.8rem; /* Alto del componente */
+    font-size: .8rem; /* Tamaño de la fuente más pequeño */
+    width: 6rem; /* Ancho del componente */
+    height: 2.5rem; /* Alto del componente */
+  }
+
+
+  @media (max-width: 600px) {
+    .pokemonImg{
+      height: 8rem;
+      width: 8rem;
+      background-color:#f0f0f0;
+      border-radius: 5%;
+    }
+
+    .pokemonTypesContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: .4rem; /* Espacio entre los elementos */
+    }
+    
+    .pokemonTypes {
+      border-radius: 10px;
+      color: #000000; /* Color del texto */
+      text-align: center; /* Centra el texto */
+      font-weight: bolder; /* Peso de la fuente en negrita */
+      font-size: .6rem; /* Tamaño de la fuente más pequeño */
+      width: 3rem; /* Ancho del componente */
+      height: 1.8rem; /* Alto del componente */
+    }
   }

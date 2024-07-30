@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { fetchPokemonList } from '../../services/api'
 import Pokemon from '../atoms/Pokemon';
-import Navbar from './navbar';
 import './style.css'; 
 
 const PokemonList = () => {
@@ -23,7 +22,6 @@ const PokemonList = () => {
 
   return (
     <div>
-      <Navbar></Navbar>
       <div className='SelectFilter'>
         <select name="" id="PokemonFilter">
           <option value="Lowest">Lowest Number (First)</option>

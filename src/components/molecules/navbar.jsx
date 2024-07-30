@@ -1,26 +1,27 @@
 
+import searchIcon from '../../assets/search.png';
+
 function Navbar() {
   return (
-    <div> 
-      <div>
-        <div>
-          <h2>Name or Number</h2>
-          <div>
-            <input type="text" />
-            <button>
-              <img src="" alt="" />
+    <div className="NavBarWrapper">
+      <div className="NavBar">
+        <div className="leftSide">
+          <h2 className="searchText">Name or Number</h2>
+          <div className="searchSection">
+            <input type="text" className="searchField"/>
+            <button className="searchBtn">
+              <img className="searchIcon" src={searchIcon} alt="" />
             </button>
           </div>
-          <p>Use the advanced search to explore Pokémon by type, weakness, Ability and more!</p>
+          <p className="searchContext">Use the advanced search to explore Pokémon by type, weakness, Ability and more!</p>
         </div>
-        <div>
-          <p>Search a pokemon by name or using its National Pokedex number</p>
+        <div className="rightSide">
+          <p className="greenBox">Search a pokemon by name or using its National Pokedex number</p>
         </div>
       </div>
-      <div>
+      <div className="downSide">
         <p>Show advanced Search</p>
       </div>
-      
     </div>
   )
 }
